@@ -1,12 +1,90 @@
 .header {
     padding-bottom: 20px;
     margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
 }
 
 .header > h3, h5 {
     margin: 0;
     padding-top: 20px;
     text-align: center;
+
 }
+
+.p {
+
+    text-align: center;
+    font-size: 15;
+    font-family: sans-serif;
+}
+
+
+.col-lg-6 {
+    display: flex;
+    flex-direction: row;
+
+
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+
+
+.col-lg-7 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.extra {
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 13;
+    font-family: sans-serif;
+    margin-left: 70px;
+}
+
+.written {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+body {
+    display: flex;
+    max-width: fit-content;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+#graph1 {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
 
 /* Include any custom CSS styling here! */
