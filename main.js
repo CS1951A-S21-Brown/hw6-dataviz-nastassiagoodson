@@ -2,7 +2,6 @@
 const MAX_WIDTH = Math.max(1080, window.innerWidth);
 const MAX_HEIGHT = 720;
 const margin = { top: 40, right: 100, bottom: 40, left: 175 };
-console.log('hi');
 const filenames = ['../data/football.csv', '../data/football.csv'];
 
 // Assumes the same graph width, height dimensions as the example dashboard. Feel free to change these if you'd like
