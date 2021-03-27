@@ -134,7 +134,6 @@ function setData(index, attr) {
         let obj = res[0];
         let yearData = res[2];
         let worldCupData = res[3];
-        console.log(teamData);
 
         let colorMap = d3
             .scaleOrdinal()
