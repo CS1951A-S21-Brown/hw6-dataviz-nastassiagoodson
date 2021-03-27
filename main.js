@@ -483,13 +483,7 @@ function cleanData(football, years, index) {
         obj[element[0]] = element[1];
     });
 
-    let worldCupObj = {};
-
-    worldCupData.forEach(function (element) {
-        worldCupObj[element[0]] = element[1];
-    });
-
-    return [obj, teamData, yearData, worldCupData, worldCupObj];
+    return [obj, teamData, yearData, worldCupData];
 }
 
 setData(1, 'percent_wins');
